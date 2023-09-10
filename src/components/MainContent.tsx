@@ -32,6 +32,7 @@ export const MainContent: FC<Props> = ({ title }) => {
 			return router.push('/');
 		}
 		setCurrentDocument(doc);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	return (
